@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Responsive Multi Level Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+    <header>
+        <!-- Nav Bar -->
+        <nav>
+            <!-- Logo -->
+            <h1 class="logo">Dzoz <span>Designs</span></h1>
+            <!-- Hamburger Menu -->
+            <input type="checkbox" name="" id="menu">
+            <label for="menu"><i class="fas fa-bars"></i></label>
+            <label for="menu"><i class="fas fa-times"></i></label>
+            <!-- Menu Bar -->
+            <ul class="menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li class="drop"><a href="#">Services<i class="fas fa-caret-down"></i></a>
+                    <!-- Sub Menu Level 1 -->
+                    <ul class="submenu1">
+                        <li class="drop"><a href="#">Desgin<i class="fas fa-caret-down"></i></a>
+                            <!-- Sub Menu Level 2 -->
+                            <ul class="submenu2-a">
+                                <li><a href="#">Web</a></li>
+                                <li><a href="#">Graphic</a></li>
+                                <li><a href="#">Concept</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Development</a></li>
+                        <li class="drop"><a href="#">Testing<i class="fas fa-caret-down"></i></a>
+                            <!-- Sub Menu Level 2 -->
+                            <ul class="submenu2-b">
+                                <li><a href="#">Automation</a></li>
+                                <li><a href="#">Reporting</a></li>
+                                <li class="drop"><a href="#">Analyzing<i class="fas fa-caret-down"></i></a>
+                                    <!-- Sub Menu Level 3 -->
+                                    <ul class="submenu3-a">
+                                        <li><a href="#">Web</a></li>
+                                        <li><a href="#">Graphic</a></li>
+                                        <li><a href="#">Concept</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Text -->
+        <div class="text">
+            Simple Multi Level Responsive Navigation Menu
+        </div>
+    </header>
+</body>
+</html>
